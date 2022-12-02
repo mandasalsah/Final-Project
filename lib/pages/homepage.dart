@@ -19,6 +19,9 @@ class HomePage extends StatelessWidget {
         Container(
           child: Text("mau conflict lagi"),
         ),
+        Container(
+          child: Text("coba lagi conflictt"),
+        )
       ],
     ));
   }
