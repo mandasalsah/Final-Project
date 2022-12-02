@@ -13,6 +13,9 @@ class HomePage extends StatelessWidget {
         Container(
           child: Text("INI CONFLICT"),
         ),
+        Container(
+          child: Text("ini juga conflict"),
+        ),
       ],
     ));
   }
