@@ -20,8 +20,8 @@ class HomePage extends StatelessWidget {
           child: Text("mau conflict lagi"),
         ),
         Container(
-          child: Text("mau conflict lagi"),
-        ),
+          child: Text("coba lagi conflictt"),
+        )
       ],
     ));
   }
