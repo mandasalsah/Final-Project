@@ -12,6 +12,7 @@ class HomePage extends StatelessWidget {
      body: ListView (
       children: [
         HomeAppBar(),
+        Container(child: Text("ini juga conflict"),),
       ],
      )
     );
