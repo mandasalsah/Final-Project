@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class HomeAppBar extends StatelessWidget{
+class CategoryAppBar extends StatelessWidget{
  @override
   Widget build(BuildContext context) {
     return Container(
@@ -16,19 +16,13 @@ class HomeAppBar extends StatelessWidget{
           Padding(
             padding: EdgeInsets.only(left: 30),
             child: Text(
-              "TOKOKU",
+              "Category",
               style: TextStyle(
                 fontSize: 23,
                 fontWeight: FontWeight.bold,
                 color: Colors.black
               ),
             ),
-            ),
-            Spacer(),
-            Icon(
-              Icons.notifications,
-              size: 30,
-              color: Colors.blue ,
             ),
         ],
       ),
