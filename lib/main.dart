@@ -6,6 +6,7 @@ import 'package:bismillahfinalproject/pages/mainpage.dart';
 import 'package:bismillahfinalproject/pages/register.dart';
 import 'package:bismillahfinalproject/pages/welcome.dart';
 import 'package:bismillahfinalproject/widgets/HomeBottomBar.dart';
+import 'package:bismillahfinalproject/widgets/ProductViewModel.dart';
 import 'package:flutter/material.dart';
 import 'package:bismillahfinalproject/pages/splash.dart';
 import 'package:provider/provider.dart';
@@ -26,6 +27,9 @@ class MyApp extends StatelessWidget {
         ),
         ChangeNotifierProvider(
           create: (_) => RegisterApi(),
+        ),
+        ChangeNotifierProvider(
+          create: (_) => ProductViewModel(),
         ),
       ],
       child: MaterialApp(

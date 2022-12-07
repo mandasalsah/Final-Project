@@ -167,7 +167,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   _handphoneController.text,
                   _passwordController.text,
                   "ini konfirmasi password");
-              Navigator.of(context).pushNamed("/HomePage");
+              Navigator.of(context).pushNamed("/HomeBottomBar");
             },
             child: Text(
               "REGISTER",
