@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
         Container(
           padding: EdgeInsets.only(top: 15),
           decoration: BoxDecoration(
-            color: Colors.blue,
+            color: Color(0xFF607EAA),
           ),
           child: Column(children: [
             Container(
@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
-                  color: Colors.yellow,
+                  color: Color(0xFFF9F5EB),
                 ),
               ),
             ),
@@ -69,7 +69,7 @@ class HomePage extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
-                  color: Colors.yellowAccent,
+                  color: Color(0xFFF9F5EB),
                 ),
               ),
             ),

@@ -1,4 +1,5 @@
 import 'package:bismillahfinalproject/models/api/loginapi.dart';
+import 'package:bismillahfinalproject/pages/CartPage.dart';
 import 'package:bismillahfinalproject/pages/HomePage.dart';
 import 'package:bismillahfinalproject/pages/login.dart';
 import 'package:bismillahfinalproject/pages/mainpage.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
           '/LoginPage': (context) => LoginPage(),
           '/RegisterPage': (context) => RegisterPage(),
           '/HomeBottomBar': (context) => HomeBottomBar(),
+          '/CartPage': (context) => CartPage(),
         },
       ),
     );

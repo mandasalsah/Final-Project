@@ -41,8 +41,11 @@ class _CategoryPageState extends State<CategoryPage> {
     return Scaffold(
      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text("Category Doa"),
-        backgroundColor: Color(0xFFFF884B),
+        title: Text("Category", 
+         style: TextStyle(
+                  fontSize: 25),
+        ),
+        backgroundColor: Color(0xFF607EAA),
         elevation: 0.0,
         leading: IconButton(
          icon: Icon(
@@ -55,30 +58,7 @@ class _CategoryPageState extends State<CategoryPage> {
           },
         ),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(10.0),
-        child: Column(
-          children: [
-            const SizedBox(
-              height: 20,
-            ),
-              const SizedBox(
-                height: 20,
-              ),
-            Expanded(
-              child: ListView.builder(
-                itemBuilder: (context, index) => Card(
-                  color: Color(0xFFFFD384),
-                  elevation: 4,
-                  margin: const EdgeInsets.symmetric(vertical: 10),
-                  child: ListTile(
-                  ),
-                ),
-                ),
-            ),
-          ],
-        ),
-      ),
+      
     );
   }
   }

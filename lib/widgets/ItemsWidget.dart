@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:bismillahfinalproject/pages/ItemPage.dart';
 import 'package:flutter/material.dart';
 
 class ItemsWidget extends StatelessWidget {
@@ -11,14 +12,21 @@ class ItemsWidget extends StatelessWidget {
   ];
 
   List imgList = [
-    'Fashion',
-    'Fashion',
-    'Fashion',
-    'Perabotan',
+    'FASHION',
+    'FASHION',
+    'FASHION',
+    'PERABOTAN',
   ];
 
   List imgPrice = [
     '\$20',
+    '\$10',
+    '\$80',
+    '\$100',
+  ];
+
+  List imgKet = [
+    '',
     '\$10',
     '\$80',
     '\$100',
@@ -43,7 +51,7 @@ class ItemsWidget extends StatelessWidget {
               children: [
                 InkWell(
                   onTap: () {
-                    // Navigator.pushNamed(context, itemPage);
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>  ItemPage(img[i], imgList[i], imgPrice[i],)));
                   },
                   child: Container(
                     margin: EdgeInsets.all(10),

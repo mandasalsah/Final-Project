@@ -16,11 +16,11 @@ class HomeAppBar extends StatelessWidget{
           Padding(
             padding: EdgeInsets.only(left: 30),
             child: Text(
-              "TOKOKU",
+              "Dahlia Shop",
               style: TextStyle(
-                fontSize: 23,
-                fontWeight: FontWeight.bold,
-                color: Colors.black
+                fontSize: 25,
+                fontWeight: FontWeight.w500,
+                color: Color(0xFF1C3879),
               ),
             ),
             ),
@@ -28,7 +28,7 @@ class HomeAppBar extends StatelessWidget{
             Icon(
               Icons.notifications,
               size: 30,
-              color: Colors.blue ,
+              color: Color(0xFF607EAA) ,
             ),
         ],
       ),
